@@ -1,0 +1,320 @@
+.logo {
+    padding-left: 2rem;
+    width: 10rem;
+    height: 5rem;
+}
+
+.menubar {
+    /* float: right; */
+    width: 2rem;
+    height: 2rem;
+}
+
+.banner{
+    width: 100%;
+    /* background-size: cover; */
+    height: 100%;
+    position:relative;
+}
+
+.hours {
+    align-items: center;
+    justify-content: center;
+}
+section {
+    padding: 60px 0 0 0;
+}
+
+#title {
+    /* padding-top: 100px; */
+    padding-bottom: 40px;
+    background-color: #DEE4DD;
+}
+
+#title h1 {
+    padding-top: 5rem; 
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Belleza";
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+
+#hours {
+    background-color: #DEE4DD; 
+}
+
+#slides {
+    background-color: #DEE4DD; 
+}
+
+#market {
+    background-color: #DEE4DD; 
+}
+
+#news {
+    background-color: #DEE4DD; 
+}
+
+#locate {
+    background-color: #DEE4DD; 
+}
+
+#foot {
+    background-color: #DEE4DD; 
+}
+
+
+img {
+    width: 60%;
+    height: auto;
+    /* margin-top: 1rem;
+    margin-bottom: 2rem; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+#des {
+    width: 60%;
+}
+
+li span {
+    font-weight: normal;
+}
+
+.personas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    background-color: #DEE4DD; 
+
+}
+
+.personas-container img {
+    width: 350px;
+    height: 250px;
+    ;
+}
+
+.personas-card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.personas-card p {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+#overview {
+    background-color: #DEE4DD;
+    display: flex;
+}
+
+#preparation {
+    background-color: #DEE4DD;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+#observations {
+    background-color: #DEE4DD;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+#personas {
+    background-color: #DEE4DD;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+/* belleza-regular - latin */
+@font-face {
+    font-family: 'Belleza';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/belleza-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/belleza-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  * {
+    font-family: "Belleza";
+  }
+
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+  .modals {
+    height:20rem;
+    width: 10rem;
+  }
+
+  .partner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .row {
+    display: flex;
+    right: 0px;
+    /* padding-top: 8rem; */
+  }
+  
+  .column {
+    flex: 33.33%; 
+  }
+
+  .example {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding-right: 1rem;
+    }
+  
+    .persona-card {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+    }
+    
+    .personas-card h4 {
+        display: flex;
+        flex-direction: row; 
+        align-items: stretch;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 350px;
+        right: 0px;
+        /* padding-right: 20rem; */
+    }
+
+    .personas-card h3 {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 350px;
+        right: 0px;
+    }
+
+    h1{
+        
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+           
+        
+    }
+
+    .iconDetails {
+        /* margin-left:2%; */
+       float:left; 
+       height:15rem;
+       width:20rem; 
+       padding-right: 2rem;
+       } 
+       
+       .container2 {
+           width:100%;
+           display:flex;
+           align-items: center;
+           flex-direction: column;
+           /* height:auto;
+           padding:2rem; */
+       }
+
+       .container2 img {
+        width: 20rem;
+        margin-left:10rem;
+        margin-right: 5rem;
+       }
+
+       /* #main {
+        width: 40rem;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        
+      }
+
+      #main div {
+        width: 70px;
+        height: 70px;
+      }
+      
+      .idk {  
+        width: 20rem; 
+        float: left; 
+        margin-right: 20px; 
+      } 
+
+      .newss{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+      }
+
+      .news1{
+        height: 20rem;
+      }
+
+  */
+
+  #arrow{
+    width:2rem;
+    height:2rem;
+  }
+
+  
+  .personas-card h4 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 350px;
+    right: 0px;
+}
+
+#logo {
+    width:4.7rem;
+    height:2.8rem;
+}
+
+#logo2 {
+    width:3rem;
+    height:3rem;
+}
