@@ -98,14 +98,6 @@ li span {
   justify-content: center;
 }
 
-.market-card p {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 350px;
-}
 
 .innews-container {
     display: flex;
@@ -187,8 +179,8 @@ hr {
   background-color:black;
 }
 
-.modals {
-  height: 20rem;
+#modals {
+  height: 10rem;
   width: 10rem;
 }
 
@@ -207,7 +199,7 @@ hr {
   flex: 33.33%;
 }
 
-.example {
+.question {
   position: fixed;
   bottom: 0px;
   right: 0px;
@@ -322,6 +314,7 @@ h1 {
   gap: 5rem;
   background-color: #dee4dd;
   padding-top: 30px;
+  
 }
 
 .about-card {
@@ -347,6 +340,145 @@ h1 {
   }
   #title h1 {
     text-align: center;
+  }
+}
+
+@media (min-width: 1800px) {
+  .about-card {
+    width: 80rem;
+    height: 80rem;
+  }
+  .about-card div {
+    height: 80rem;
+  }
+  #title h1 {
+    text-align: center;
+    font-size: 20rem;
+  }
+  #hours h3 {
+    font-size: 8rem;
+    text-align: center;
+  }
+  #market {
+    padding-top: 7rem;
+  }
+  #market h2 {
+    font-size: 10rem;
+    text-align: center;
+  }
+  #market img {
+    width: 40rem;
+  }
+  .market-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    background-color: #dee4dd;
+  }
+  
+  .market-container img {
+    width: 400rem;
+    height: 200rem;
+  }
+  #modals {
+  height: 40rem;
+  width: 40rem;
+}
+#news {
+  padding-top: 7rem;
+}
+  #news h2 {
+    font-size: 10rem;
+    text-align: center;
+  }
+  #news h3 {
+    font-size: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+  }
+  #news h4 {
+    font-size: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+  }
+  .innews-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30rem;
+    background-color: #dee4dd;
+    
+  }
+  .innews-container img {
+    width: 80rem;
+    height: 50rem;
+  }
+  
+  .innews-card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+  }
+  #arrtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80rem;
+    text-align: center;
+  }
+
+  #arr {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80rem;
+    text-align: center;
+  }
+  #about{
+    font-size: 10rem;
+  }
+  
+  #foot p{
+font-size: 6rem;
+  }
+  #arrow {
+    width: 6rem;
+    height: 6rem;
+  }
+  #logo {
+    width: 15rem;
+    height: 10rem;
+  }
+  #logo2 {
+    width: 10rem;
+    height: 10rem;
+  }
+  .about-card div {
+    height: 60rem;
+  }
+  .about-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30rem;
+    background-color: #dee4dd;
+    padding-top: 10rem;
+    
+    
   }
 }
 
