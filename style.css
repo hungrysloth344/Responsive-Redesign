@@ -9,6 +9,12 @@
   height: 2rem;
 }
 
+.navbar-nav{
+  font-size: 20px; 
+  color:black;
+}
+
+
 .banner {
   width: 100%;
   height: 500px;
@@ -477,8 +483,23 @@ font-size: 6rem;
     gap: 30rem;
     background-color: #dee4dd;
     padding-top: 10rem;
-    
-    
+  }
+  .banner {
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    object-fit: cover;
+  }
+  .navbar {
+    min-height: 300px;
+  }
+  .logo {
+    padding-left: 1rem;
+    width: 40rem;
+    height: 20rem;
+  }
+  .navbar-nav {
+    font-size: 8rem;
   }
 }
 
