@@ -349,7 +349,7 @@ h1 {
   }
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1998px) {
   .about-card {
     width: 80rem;
     height: 80rem;
@@ -499,7 +499,7 @@ font-size: 6rem;
     height: 20rem;
   }
   .navbar-nav {
-    font-size: 8rem;
+    font-size: 6rem;
   }
 }
 
